@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing-page-Pw</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-gray-900">
+    <!-- nav bar start from here -->
+    <nav class="  w-full h-14 flex justify-between px-4 md:px-4 items-center ">
+        <div class="text-indigo-200 font-bold text-xl">Pw skills</div>
+        <ul class="hidden md:flex font-semibold">
+            <li class="mx-2 text-yellow-500 hover:text-[#8EC836] cursor-pointer ">Home</li>
+            <li class="mx-2  text-yellow-500 hover:text-[#8EC836] cursor-pointer ">About</li>
+            <li class="mx-2  text-[#8EC836] hover:text-yellow-500 cursor-pointer ">Contact Us</li>
+        </ul>
+        <div class="font-semibold bg-indigo-600 text-indigo-200 rounded px-2 py-2 cursor-pointer hidden md:block">Login/Signup</div>
+        <div class= "md:hidden"><a class="text-indigo-200 text-3xl md:hidden" href="#"><i class= "fa-solid fa-bars"></i></a></div>
+    </nav>
+    <!-- nav bar ends here -->
+    <!-- img sec start -->
+    <main class=" w-full">
+        <img class="w-full hidden md:block" src="/main-img.jpg" alt="pic">
+        <img class=" w-full md:hidden" src="/main-img.jpg" alt="pic">
+    </main>
+    <!-- img sec end -->  
+    <!-- student sec -->
+    <div class="w-full h-auto flex text-center flex-col flex-wrap items-center p-10">
+       <div class="h-auto w-full flex flex-wrap flex-col text-center items-center">
+        <p class="font-bold text-indigo-500 text-2xl md:text-3xl">"Pure Hardwork,No Shortcut!"</p>
+        <div class="w-36 h-1 border-b-4 rounded-2xl mt-2 md:mt-3 mb-12 border-yellow-400"></div>
+       </div>
+       <div class="w-full flex  flex-wrap justify-evenly items-center ">
+         <div class="flex flex-col items-center justify-center mb-12">
+            <img class="w-32 h-32 md:w-40 md:h-40 rounded-full" src="data:image/jpeg;base64,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" alt="note">
+            <p class="font-bold text-white text-3xl">600+</p>
+            <p class="font-bold text-gray-500 text-3xl">Different Courses</p>
+         </div>
+         <div class=" w-46 flex flex-col items-center justify-center mb-12">
+            <img class="w-32 h-32 md:w-40 md:h-40 rounded-full" src="https://cdn2.vectorstock.com/i/1000x1000/01/16/man-boy-graduate-gown-vector-10260116.jpg" alt="note">
+            <p class="font-bold text-white text-3xl">700,000+</p>
+            <p class="font-bold text-gray-500 text-3xl">Students Enrolled</p>
+         </div>
+         <div class="flex flex-col items-center justify-center mb-12">
+            <img class="w-32 h-32 md:w-40 md:h-40 rounded-full " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCkj859UfK9m9HAICyOL_fKudIHnfD9ADtsss3F_QXWoBvPSZe8CqyjCeMfw4CgYehfkQ&usqp=CAU" alt="note">
+            <p class="font-bold text-white text-3xl">10,000+</p>
+            <p class="font-bold text-gray-500 text-3xl">Successful Transition</p>
+         </div>
+       </div>
+
+    </div>
+    <!-- our student section end her -->
+    <!-- our product sec start/ -->
+    <div class="w-full h-auto flex text-center flex-col flex-wrap  items-center p-10">
+        <div class="h-auto w-full flex flex-wrap flex-col text-center items-center">
+            <p class="font-bold text-indigo-500 text-2xl md:text-3xl">Our Products</p>
+            <div class="w-36 h-1 border-b-4 rounded-2xl mt-2 md:mt-3 mb-12 border-yellow-400"></div>
+           </div>
+        <div class=" w-full flex items-center  flex-wrap justify-evenly mb-12">
+            <div class="w-44 md:w-52 h-44 md:h-52 flex flex-col justify-center items-center border-2 border-solid border-white p-4">
+                <img class="w-32 h-32 rounded-full" src="https://img.freepik.com/premium-vector/soft-skills-concept-human-head-with-business-icons-around-office-workers-empathy-communication-idea-development-education-work-multiple-intelligences-cartoon-vector-illustration_87771-16162.jpg" alt="skill">
+                <p class="bold text-white text-[18px] md:text-[24px] font-bold">PW skills Lab</p>
+                <p class="bold text-gray-400 text-[14px] md:text-[18px] font-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+            <div class="w-44 md:w-52 h-44 md:h-52 flex flex-col justify-center items-center  p-4">
+                <img class="w-32 h-32 rounded-full" src="https://media.istockphoto.com/id/1723252472/vector/job-description-reading-job-description-carefully-person-hold-magnifying-glass-to-look-at.jpg?s=612x612&w=0&k=20&c=0a3otdak1-LU7XjEik0Th6GeQoldavlmHWgyy63zgZU=" alt="skill">
+                <p class="bold text-white text-[18px] md:text-[24px] font-bold">PW skills Lab</p>
+                <p class="bold text-gray-400 text-[14px] md:text-[18px] font-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+            <div class="w-44 md:w-52 h-44 md:h-52 flex flex-col justify-center items-center  p-4">
+                <img class="w-32 h-32 rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK96ThuUR84O3v-nqmHjbwesdv2QrpGe2ai5wpPqIfUrUsjq3DIc3V0tIxSUT7H9Yj6yE&usqp=CAU" alt="skill">
+                <p class="bold text-white text-[18px] md:text-[24px] font-bold">PW skills Lab</p>
+                <p class="bold text-gray-400 text-[14px] md:text-[18px] font-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+            <div class="w-44 md:w-52 h-44 md:h-52 flex flex-col justify-center items-center  p-4">
+                <img class="w-32 h-32 rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGL3-jMW2s0OX0GRGxjhsvrgK5OP9qiSHQkTlhuN1kDLfvrTJLLGNcAojfIiqj3fJWDXo&usqp=CAU" alt="skill">
+                <p class="bold text-white text-[18px] md:text-[24px] font-bold">PW skills Lab</p>
+                <p class="bold text-gray-400 text-[14px] md:text-[18px] font-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+            <div class="w-44 md:w-52 h-44 md:h-52 flex flex-col justify-center items-center  p-4">
+                <img class="w-32 h-32 rounded-full" src="https://media.istockphoto.com/id/1394911378/vector/award-or-medal-outline-icon.jpg?s=612x612&w=0&k=20&c=s_lqG2dSbfaZDvHRCTnW3le751kFmMPPPU70G9sXy8o=" alt="skill">
+                <p class="bold text-white text-[18px] md:text-[24px] font-bold">PW skills Lab</p>
+                <p class="bold text-gray-400 text-[14px] md:text-[18px] font-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+        </div>   
+    </div>
+    <!-- our products end here -->
+    <!-- our footer sec start from here -->
+    <footer class="w-full h-auto ">
+       <div class=" w-full flex flex-col md:flex-row px-6 py-16">
+        <div class=" flex flex-col gap-[16px] md:w-1/3">
+            <img  class=" mb-[26px] w-20" src="/logo.png" alt="">
+            <div class="flex items-center gap-2 ">
+                <i class=" text-sm md:text-base text-gray-300 fa-solid fa-envelope"></i>
+                <p class="text-sm md:text-base text-gray-300">support@pwskills.com</p>
+            </div>
+            <div class="flex items-center gap-2">
+                <i class=" text-sm md:text-base text-gray-300 fa-solid fa-phone"></i>
+                <p class="text-sm md:text-base text-gray-300">+91 6361388292</p>
+            </div> 
+            <div class="flex items-center gap-2">
+                <i class=" text-sm md:text-base text-gray-300 fa-brands fa-linkedin"></i>
+                <i class=" text-sm md:text-base text-gray-300 fa-brands fa-youtube"></i>
+                <i class=" text-sm md:text-base text-gray-300 fa-brands fa-telegram"></i>
+            </div>
+            <img class="w-16" src="/iso-certification.png" >
+        </div>
+        <div class="w-full flex flex-col md:flex-row mt-8 md:mt-0 md:w-2/3 pb-8" >
+            <div class="w-full md:w-1/2 flex flex-col  ">
+              <h5 class=" text-lg md:text-xl font-semibold text-white  leading-[26px]">Company</h5>
+              <div class="h-1 w-[80%] border-b-4 border-solid border-yellow-300 my-8"></div>
+              <ul class="flex flex-wrap ">
+                 <li class=" text-sm md:text-base text-gray-300  w-[50%] pb-4">About US</li>
+                 <li class="text-sm md:text-base text-gray-300 w-[50%] pb-4">Contact Us</li>
+                 <li class="text-sm md:text-base text-gray-300 w-[50%] pb-4">FAQ</li>
+                 <li class="text-sm md:text-base text-gray-300 w-[50%] pb-4">Job Assistance</li>
+                 <li class="text-sm md:text-base text-gray-300 w-[50%] pb-4">Privacy Policy</li>
+                 <li class="text-sm md:text-base text-gray-300 w-[50%] pb-4">Terms And Condition</li>
+              </ul>
+            </div>
+            <div class="flex flex-col w-full  md:w-1/2">
+                <h5 class="text-lg md:text-xl  text-white font-semibold leading-[26px]">Products</h5>
+                <div class="h-1 w-[80%] border-b-4 border-solid border-yellow-300 my-8"></div>
+              <ul class="flex flex-wrap">
+                  <li class="text-sm md:text-base text-gray-300 w-[50%] pb-4">PW Skills Lab</li>
+                  <li class="text-sm md:text-base text-gray-300 w-[50%] pb-4">job portal</li>
+                  <li class="text-sm md:text-base text-gray-300 w-[50%] pb-4">Hall Of fame</li>
+                  <li class="text-sm md:text-base text-gray-300 w-[50%] pb-4">Become an affliate</li>
+                  <li class="text-sm md:text-base text-gray-300 w-[50%] pb-4">Experience Portal</li>
+                  <li class="text-sm md:text-base text-gray-300 w-[50%] pb-4">Blog</li>
+              </ul>
+            </div>
+        </div> 
+       </div>    
+    </footer>
+    <!-- our student sec end here -->
+</body>
+</html>
